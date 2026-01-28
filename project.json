@@ -31,7 +31,8 @@
     "readyForPiP": false,
     "startsInPiP": false,
     "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "pipType": "ChildSession",
+    "targetFramework": "net6.0-windows"
   },
   "designOptions": {
     "projectProfile": "Developement",

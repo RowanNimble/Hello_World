@@ -30,7 +30,6 @@ pipeline {
                     outputPath: "Output\\${env.BUILD_NUMBER}",
                     projectJsonPath: "project.json",
                     version: [$class: 'ManualVersionEntry', version: "${MAJOR}.${MINOR}.${env.BUILD_NUMBER}"],
-                    targetFramework: 'net6.0-windows',
 		    useOrchestrator: false,
                     traceLevel: 'None'
                 )
