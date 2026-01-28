@@ -49,8 +49,9 @@ pipeline {
                         accountName: "${UIPATH_ORCH_LOGICAL_NAME}",
                         credentialsId: 'APIUserKey'
                     ),
-                    traceLevel: 'None',
-                    entryPointPaths: 'Main.xaml'
+                    entryPointPaths: 'Main.xaml',
+		    createProcess: true,
+		    traceLevel: 'None',
                 )
             }
         }
